@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
+import hero from "../img/home-hero.png";
 
 export default function Home() {
   return (
     <div className="text-center px-5">
       <div className="relative blur-md brightness-50">
-        <img src="../../public/home-hero.png" alt="" />
+        <img src={hero} alt="" />
       </div>
 
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white ">
